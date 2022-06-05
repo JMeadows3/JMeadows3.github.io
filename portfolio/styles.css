@@ -1,0 +1,227 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section {
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    scroll-snap-align:start;
+    text-align: center;
+    background-image: url(./images/marten-bjork-yZNGVL_fWj8-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    background-size: cover;
+}
+.container {
+    scroll-snap-type:y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.one {
+    background-color: black;
+    color: rgb(0, 0, 0);
+}
+.first-name {
+    font-size: 2em;
+    margin-top: 11em;
+    padding-right: .4em;
+}
+.last-name {
+    font-size: 1em;
+    padding-left: 1.5em;
+}
+
+
+/* --------------------------------  BIOGRAPHY  ----------------------------------------------------------- */
+
+.two {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    background-image: url(./images/k-eareast-G_1k_sh96HU-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    background-size: cover;
+}
+.two h1{
+    margin: 3em;
+    font-size: 2.5em;
+}
+.two h1 p{
+    padding-top: 3em;
+    padding-bottom: 1em;
+    font-size: 27px;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-decoration:solid;
+}
+.two h1 ul{
+    font-size:.4em;
+    list-style-type: none;
+}
+.two h1 ul li{
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    padding: 1em;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+
+}
+
+/* -----------------------------------   skills  --------------------------------------------------- */
+
+
+.three {
+    background-color: rgb(0, 0, 5);
+    color: white;
+    background-image: url(./images/k-eareast-G_1k_sh96HU-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    background-size: cover;
+}
+.three h1{
+    margin: 2em;
+    font-size: 3em;
+}
+/* .three h1 p{
+    padding-top: 3em;
+    padding-bottom: 1em;
+    font-size: 27px;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-decoration:solid;
+} */
+.three h1 ul{
+    font-size:.4em;
+    padding-top: 5em;
+    list-style-type: none;
+}
+.three h1 ul li{
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    padding: .5em;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+/* ---------------------------- WORK HISTORY --------------------------------------------- */
+
+.four {
+    background-color: rgb(0, 0, 5);
+    color: white;
+    background-image: url(./images/k-eareast-G_1k_sh96HU-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    background-size: cover;
+}
+.four h1 p{
+    padding-top: 2em;
+    font-size: 27px;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-decoration:solid;
+}
+.four h1{
+    margin: 2em;
+    font-size: 2.4em;
+}
+.four h1 ul{
+    font-size:.3em;
+    list-style-type: none;
+}
+.four h1 ul li{
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    padding: .3em;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+/* ----------------------------------   RESPONSIVE NAV BAR  ------------------------------------------------------------ */
+
+.five {
+    background-color: rgb(0, 0, 5);
+    color: white;
+    background-image: url(./images/k-eareast-G_1k_sh96HU-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    background-size: cover;
+}
+.five h1{
+    margin: 2em;
+    font-size: 2.4em;
+}
+.five form{
+    font-size: 27px;
+    padding:6em;
+    text-decoration:solid;
+}
+/* ------------------------------------ CONATACT PAGE ----------------------------------------------------------- */
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+}
+/* nav p {
+    font-family: arial;
+    color: #222;
+    font-size: 24px;
+    line-height: 55px;
+} */
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+}
+nav ul li a {
+    display: block;
+    font-family: arial;
+    color: #222;
+    font-size: 14px;
+    padding: 22px 16px;
+    text-decoration: none;
+    color: white;
+    
+}
+nav ul li ul {
+    display: none;
+    position:absolute;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0px 0px 6px 6px;
+}
+nav ul li:hover ul {
+    display: block;
+}
+nav ul li ul a{
+    padding: 15px 31px;
+}
+nav ul li ul a{
+    width: 185px;
+    border-radius: 0px 0px 6px 6px;
+}
+nav ul li ul a:hover{
+    background-color: blueviolet;
+}
