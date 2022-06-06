@@ -19,7 +19,7 @@ section {
     justify-content: center;
     scroll-snap-align:start;
     text-align: center;
-    background-image: url(./images/marten-bjork-yZNGVL_fWj8-unsplash.jpg);
+    background-image: url(./images/joseph-barrientos-oQl0eVYd_n8-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;   
@@ -34,32 +34,38 @@ section {
 .one {
     background-color: black;
     color: rgb(0, 0, 0);
+    text-shadow: 6px 3px 8px rgb(0, 0, 0);
+    padding: 1em;
 }
 .first-name {
     font-size: 2em;
-    margin-top: 11em;
-    padding-right: .4em;
+    margin-top: 6em;
+    padding-right: .3em;
 }
 .last-name {
     font-size: 1em;
     padding-left: 1.5em;
 }
+.fa-brands, .fa-linkedin{
+    justify-content: center;
 
-
+}
 /* --------------------------------  BIOGRAPHY  ----------------------------------------------------------- */
 
 .two {
     background-color: rgb(0, 0, 0);
-    color: white;
-    background-image: url(./images/k-eareast-G_1k_sh96HU-unsplash.jpg);
+    color: antiquewhite;
+    background-image: url(./images/jeremy-bishop-1braZySlEKA-unsplash--1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;   
     background-size: cover;
 }
 .two h1{
-    margin: 3em;
+    margin: 1.6em;
     font-size: 2.5em;
+    color: #FFC773;
+    text-shadow: 10px 10px 8px black;
 }
 .two h1 p{
     padding-top: 3em;
@@ -68,6 +74,7 @@ section {
     padding-left: 1em;
     padding-right: 1em;
     text-decoration:solid;
+    color: #FFC773
 }
 .two h1 ul{
     font-size:.4em;
@@ -78,26 +85,29 @@ section {
     font-size: larger;
     padding: 1em;
     justify-content: center;
-    color: rgb(255, 255, 255);
+    color:#FFC773;
     font-size: larger;
 
 }
+
 
 /* -----------------------------------   skills  --------------------------------------------------- */
 
 
 .three {
     background-color: rgb(0, 0, 5);
-    color: white;
-    background-image: url(./images/k-eareast-G_1k_sh96HU-unsplash.jpg);
+    color: #FFC773;
+    background-image: url(./images/jeremy-bishop-1braZySlEKA-unsplash--1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;   
     background-size: cover;
 }
 .three h1{
-    margin: 2em;
+    margin: 1em;
     font-size: 3em;
+    color: #FFC773;
+    text-shadow: 10px 10px 8px black;
 }
 /* .three h1 p{
     padding-top: 3em;
@@ -109,7 +119,7 @@ section {
 } */
 .three h1 ul{
     font-size:.4em;
-    padding-top: 5em;
+    padding-top: 1em;
     list-style-type: none;
 }
 .three h1 ul li{
@@ -117,7 +127,7 @@ section {
     font-size: larger;
     padding: .5em;
     justify-content: center;
-    color: rgb(255, 255, 255);
+    color: #FFC773;
     font-size: larger;
 }
 
@@ -125,23 +135,26 @@ section {
 
 .four {
     background-color: rgb(0, 0, 5);
-    color: white;
-    background-image: url(./images/k-eareast-G_1k_sh96HU-unsplash.jpg);
+    color: #FFC773;
+    background-image: url(./images/jeremy-bishop-1braZySlEKA-unsplash--1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;   
     background-size: cover;
+    color: #FFC773;
 }
 .four h1 p{
-    padding-top: 2em;
-    font-size: 27px;
+    padding-top: .7em;
+    font-size: 25px;
     padding-left: 1em;
     padding-right: 1em;
     text-decoration:solid;
 }
 .four h1{
     margin: 2em;
-    font-size: 2.4em;
+    font-size: 2.2em;
+    color: #FFC773;
+    text-shadow: 10px 10px 8px black;
 }
 .four h1 ul{
     font-size:.3em;
@@ -149,18 +162,19 @@ section {
 }
 .four h1 ul li{
     font-family:'Times New Roman', Times, serif;
-    font-size: larger;
+    font-size:x-large;
     padding: .3em;
     justify-content: center;
-    color: rgb(255, 255, 255);
+    color:#FFC773;
     font-size: larger;
 }
 /* ----------------------------------   CONATACT PAGE  ------------------------------------------------------------ */
 
 .five {
     background-color: rgb(0, 0, 5);
-    color: white;
-    background-image: url(./images/k-eareast-G_1k_sh96HU-unsplash.jpg);
+    color: #FFC773;
+    background-image: url(./images/jeremy-bishop-1braZySlEKA-unsplash--1.jpg);
+    margin-bottom: 2em;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;   
@@ -169,12 +183,16 @@ section {
 .five h1{
     margin: 2em;
     font-size: 2.4em;
+    color: #FFC773;
+    text-shadow: 10px 10px 8px black;
 }
 .five form{
     font-size: 27px;
-    padding:6em;
+    padding: 2em;
     text-decoration:solid;
+    /* box-shadow: 10px 10px 8px black; */
 }
+
 /* ------------------------------------ RESPONSIVE NAV BAR ----------------------------------------------------------- */
 nav {
     width: 100%;
@@ -203,7 +221,7 @@ nav ul li a {
     font-size: 14px;
     padding: 22px 16px;
     text-decoration: none;
-    color: white;
+    color: #FFC773;
     
 }
 nav ul li ul {
@@ -225,7 +243,20 @@ nav ul li ul a{
 nav ul li ul a:hover{
     background-color: blueviolet;
 }
+#fname, #email{
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
 
+#subject{
+    border-radius: 10px 10px 10px 10px;
+    padding-top: .6em;
+    padding-left: 1em;
+    margin-top: 1.5em;
+}
+.fa-brands{
+    margin-top: 1.5em;
+}
 /* ----------------------------------------- Screen sizing ------------------------------------------ */
 
 
@@ -236,9 +267,9 @@ nav ul li ul a:hover{
     }
 
     .gallery-item {
-        width:50%;
+        width:100%;
         padding:1em;
-        justify-content: center;
+        font-size: xx-small;
     }
     .two{
         padding-top: 1.5em;
@@ -261,4 +292,222 @@ nav ul li ul a:hover{
         font-size: 3.3em;
         margin-top: 7.6em;
     }
+}
+
+@media (max-width:766px) {
+    .larger{
+        display:none;
+    }
+    
+    
+}
+
+@media (min-width:766px) {
+    h1 p{
+        font-size: 2px;
+    }
+    .two h1 ul li{
+        display:none;
+    }
+    .three h1 ul{
+        font-size:.6em;
+        padding-top: 1.9em;
+        list-style-type: none;
+    }
+    .four h1 ul{
+        font-size:.8em;
+        list-style-type: none;
+    }
+    .three h1 ul li{
+        font-family:'Times New Roman', Times, serif;
+        font-size:xx-large;
+        padding: .5em;
+        justify-content: center;
+        color: #FFC773;
+        font-size: larger;
+    }
+    .four h1 ul li{
+        font-family:'Times New Roman', Times, serif;
+        font-size:x-large;
+        padding: .3em;
+        justify-content: center;
+        color:#FFC773;
+        font-size: larger;
+    }
+    .five form{
+        font-size: 27px;
+        padding: 8em;
+        padding-top: 2em;
+        text-decoration:solid;
+        /* box-shadow: 10px 10px 8px black; */
+    }
+    .first-name {
+        font-size: 5em;
+        margin-top: 2em;
+        padding-right: .3em;
+    }
+    .last-name {
+        font-size: 1em;
+        padding-left: 1.5em;
+    }
+}
+@media (min-width:915px){
+    .five form{
+        font-size: 22px;
+        padding: 13em;
+        padding-top: 4em;
+        text-decoration:solid;
+        /* box-shadow: 10px 10px 8px black; */
+    }
+}
+@media (min-width:1024px){
+    .five form{
+        font-size: 27px;
+        padding: 13em;
+        padding-top: 4em;
+        text-decoration:solid;
+        /* box-shadow: 10px 10px 8px black; */
+    }
+
+}
+@media (min-width:1150px){
+    .five form{
+        font-size: 31px;
+        padding: 25em;
+        padding-top: 4em;
+        text-decoration:solid;
+        /* box-shadow: 10px 10px 8px black; */
+    }
+}
+@media (min-width:1440px){
+        .five form{
+            font-size: 27px;
+            padding: 20em;
+            padding-top: 4em;
+            text-decoration:solid;
+            /* box-shadow: 10px 10px 8px black; */
+        }
+        .first-name {
+            font-size: 7em;
+            margin-top: 1em;
+            padding-right: .3em;
+        }
+        .last-name {
+            font-size: 1em;
+            padding-left: 1.5em;
+        }
+    
+}
+@media (min-width:1550px){
+    .five form{
+        font-size: 31px;
+        padding: 29em;
+        padding-top: 4em;
+        text-decoration:solid;
+        /* box-shadow: 10px 10px 8px black; */
+    }
+}
+@media (min-width:2350px){
+    .five form{
+        font-size: 31px;
+        padding: 37em;
+        padding-top: 4em;
+        text-decoration:solid;
+        /* box-shadow: 10px 10px 8px black; */
+    }
+}
+@media (min-width:2560px){
+    .five form{
+        font-size: 27px;
+        padding: 45em;
+        padding-top: 4em;
+        text-decoration:solid;
+        /* box-shadow: 10px 10px 8px black; */
+    }
+    .first-name {
+        font-size: 8em;
+        margin-top: 1em;
+        padding-right: .3em;
+    }
+    .last-name {
+        font-size: 1em;
+        padding-left: 1.5em;
+    }
+
+}
+@media (min-width:3000px){
+    .five form{
+        font-size: 27px;
+        padding: 50em;
+        padding-top: 4em;
+        text-decoration:solid;
+        /* box-shadow: 10px 10px 8px black; */
+    }
+    .first-name {
+        font-size: 8em;
+        margin-top: 1em;
+        padding-right: .3em;
+    }
+    .last-name {
+        font-size: 1em;
+        padding-left: 1.5em;
+    }
+
+}
+@media (min-width:3300px){
+    .five form{
+        font-size: 27px;
+        padding: 59em;
+        padding-top: 4em;
+        text-decoration:solid;
+        /* box-shadow: 10px 10px 8px black; */
+    }
+    .first-name {
+        font-size: 8em;
+        margin-top: 1em;
+        padding-right: .3em;
+    }
+    .last-name {
+        font-size: 1em;
+        padding-left: 1.5em;
+    }
+
+}
+@media (min-width:3800px){
+    .five form{
+        font-size: 27px;
+        padding: 66em;
+        padding-top: 4em;
+        text-decoration:solid;
+        /* box-shadow: 10px 10px 8px black; */
+    }
+    .first-name {
+        font-size: 8em;
+        margin-top: 1em;
+        padding-right: .3em;
+    }
+    .last-name {
+        font-size: 1em;
+        padding-left: 1.5em;
+    }
+
+}
+@media (min-width:4900px){
+    .five form{
+        font-size: 27px;
+        padding: 86em;
+        padding-top: 4em;
+        text-decoration:solid;
+        /* box-shadow: 10px 10px 8px black; */
+    }
+    .first-name {
+        font-size: 8em;
+        margin-top: 1em;
+        padding-right: .3em;
+    }
+    .last-name {
+        font-size: 1em;
+        padding-left: 1.5em;
+    }
+
 }
